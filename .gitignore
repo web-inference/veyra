@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+.raw-images
+tests/screenshots
+*.tsbuildinfo
+next-env.d.ts
+.env*.local
+
+# local-only
+.claude/
+public/images/hero-foreground1.png

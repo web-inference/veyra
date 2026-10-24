@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-night-900: #071a20;
+  --color-night-700: #0f2f38;
+  --color-ink: #121414;
+  --color-ink-muted: #6b7072;
+  --color-ink-faint: #b4b9bb;
+  --color-paper: #ffffff;
+  --color-mist: #f5f6f5;
+  --color-line: #e6e8e7;
+  --color-accent: #ec8a2e;
+  --color-accent-hover: #d97818;
+
+  --font-sans: var(--font-geist), Inter, system-ui, sans-serif;
+  --font-serif: var(--font-instrument), Georgia, "Times New Roman", serif;
+
+  --radius-card: 20px;
+  --radius-img: 16px;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.55;
+  overflow-x: clip;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  text-wrap: balance;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+/* Hero intro: only when JS runs (html.js is set before first paint) and motion is allowed,
+   hold the photo and text hidden until both images have loaded. Without JS everything shows. */
+@media (prefers-reduced-motion: no-preference) {
+  .js .hero-pending .hero-img,
+  .js .hero-pending .wm-letter,
+  .js .hero-pending .hero-title,
+  .js .hero-pending .hero-search {
+    opacity: 0;
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+@layer components {
+  .container-x {
+    width: 100%;
+    max-width: 1280px;
+    margin-inline: auto;
+    padding-inline: 20px;
+  }
+  .section-y {
+    padding-block: 72px;
+  }
+  @media (min-width: 768px) {
+    .container-x {
+      padding-inline: 48px;
+    }
+    .section-y {
+      padding-block: 120px;
+    }
+  }
+  .h2 {
+    font-size: clamp(32px, 3.6vw, 52px);
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Offset that lines a full-bleed track up with .container-x content */
+  .bleed-start {
+    padding-left: max(20px, calc((100vw - 1280px) / 2 + 20px));
+    scroll-padding-left: max(20px, calc((100vw - 1280px) / 2 + 20px));
+  }
+  @media (min-width: 768px) {
+    .bleed-start {
+      padding-left: max(48px, calc((100vw - 1280px) / 2 + 48px));
+      scroll-padding-left: max(48px, calc((100vw - 1280px) / 2 + 48px));
+    }
+  }
+}

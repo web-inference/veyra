@@ -1,0 +1,223 @@
+[
+  {
+    "id": "01",
+    "name": "Hero villa at blue hour",
+    "file": "hero-villa-night.jpg",
+    "aspectRatio": "16:9",
+    "size": "2560×1440",
+    "usedIn": "Full-bleed hero background, behind the giant wordmark",
+    "prompt": "Wide cinematic photograph of a single-storey modern minimalist villa with a long flat cantilevered roof and floor-to-ceiling glass walls, sitting right at the edge of a perfectly still lake at blue hour. The interior glows warm amber: a low linen sofa, a wooden dining table, pendant lights and sheer curtains visible through the glass. The warm light reflects as long golden streaks in the dark water in the foreground. Behind the house, silhouettes of tall pine and oak trees against a deep teal night sky with a few faint stars. Camera at water level, house filling the middle horizontal band of the frame. Composition rule: keep the top 35% of the frame as clean dark-teal sky with only tree silhouettes (a giant headline goes there), and keep the bottom-left 30% as calm dark water (headline text goes there).",
+    "style": "Editorial architectural travel photography, cinematic blue-hour colour grade: deep teal and petrol-blue shadows with warm amber interior light, muted slightly desaturated greens, soft atmospheric haze, still mirror-like water, quiet luxurious mood, full-frame camera with 35mm lens, natural realistic lighting, fine film grain, ultra-detailed, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border, people, person, figures"
+  },
+  {
+    "id": "02",
+    "name": "Hero foreground cutout",
+    "file": "hero-foreground.png",
+    "aspectRatio": "16:9",
+    "size": "2560×1440",
+    "usedIn": "Layer in front of the wordmark for the depth effect. Edit image 01, don't generate a new one",
+    "edit": true,
+    "source": "hero-villa-night.jpg",
+    "prompt": "Using the attached image (hero-villa-night.jpg), remove only the sky and make it fully transparent. Keep the house, the trees, the water and every reflection exactly as they are, with no changes to framing, colour or lighting. Cut clean, natural edges around the tree branches and the roofline, with no halo. Output a PNG with a transparent background at 2560 × 1440 px, aspect ratio 16:9, same framing as the original.",
+    "tip": "Easiest: Photoshop › Select › Sky, then delete. Free: Photopea (same command) or remove.bg. Or paste this prompt with the image into ChatGPT or Gemini image editing."
+  },
+  {
+    "id": "03",
+    "name": "Vista Grand Suites",
+    "file": "dest-vista-grand-suites.jpg",
+    "aspectRatio": "6:5",
+    "size": "1800×1500",
+    "usedIn": "Bento grid, large card",
+    "prompt": "Luxury tropical resort pavilion with a huge conical thatched roof of natural reeds, open sides and a wooden deck terrace with rattan lounge chairs and dining tables, set on a green lawn above a calm blue lake. In the background a large dormant volcano with a soft white cloud wrapped around its peak, lush green hills. Three-quarter view from the lawn, pavilion in the left-centre, volcano on the right. Keep the bottom 30% darker and calm (shaded deck and lawn) for white title text.",
+    "style": "Editorial luxury travel photography, natural soft daylight, gentle haze, true-to-life colours that are slightly muted and never oversaturated, calm premium mood, full-frame camera with 35mm lens, fine film grain, ultra-detailed, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border, people, person, figures"
+  },
+  {
+    "id": "04",
+    "name": "Mountain Peak Lodge",
+    "file": "dest-mountain-peak-lodge.jpg",
+    "aspectRatio": "4:3",
+    "size": "1600×1200",
+    "usedIn": "Bento grid, small card top",
+    "prompt": "A small dark-timber cabin with one glowing window on the rocky shore of a still glacial lake, dramatic dark granite mountains with patches of snow rising behind, low clouds drifting across the peaks, cool overcast morning, moody teal-grey palette, mirror reflection in the water. Cabin small in the lower centre; bottom 35% darker for text overlay.",
+    "style": "Editorial architectural travel photography, cinematic blue-hour colour grade: deep teal and petrol-blue shadows with warm amber interior light, muted slightly desaturated greens, soft atmospheric haze, still mirror-like water, quiet luxurious mood, full-frame camera with 35mm lens, natural realistic lighting, fine film grain, ultra-detailed, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border, people, person, figures"
+  },
+  {
+    "id": "05",
+    "name": "Ocean View Resort",
+    "file": "dest-ocean-view-resort.jpg",
+    "aspectRatio": "4:3",
+    "size": "1600×1200",
+    "usedIn": "Bento grid, small card bottom",
+    "prompt": "Clifftop tropical coastline: tall leaning coconut palms on a vivid green grassy headland, turquoise ocean, a few white cumulus clouds in a bright blue sky, a low modern villa with a thatched roof partly hidden among the palms. Bright but natural midday light. Bottom 35% is calm green grass for text overlay.",
+    "style": "Editorial luxury travel photography, natural soft daylight, gentle haze, true-to-life colours that are slightly muted and never oversaturated, calm premium mood, full-frame camera with 35mm lens, fine film grain, ultra-detailed, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border, people, person, figures"
+  },
+  {
+    "id": "06",
+    "name": "City Center Apartments",
+    "file": "stay-city-center.jpg",
+    "aspectRatio": "1:1",
+    "size": "1200×1200",
+    "usedIn": "Carousel card 1",
+    "prompt": "A tall brutalist concrete apartment building with deep balconies and large glass windows glowing warm amber from inside, photographed at dusk in light fog, surrounding city lights soft and misty in the background, cool blue-grey atmosphere. Building fills the left two-thirds of the frame, slight low angle.",
+    "style": "Editorial architectural travel photography, cinematic blue-hour colour grade: deep teal and petrol-blue shadows with warm amber interior light, muted slightly desaturated greens, soft atmospheric haze, still mirror-like water, quiet luxurious mood, full-frame camera with 35mm lens, natural realistic lighting, fine film grain, ultra-detailed, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border, people, person, figures"
+  },
+  {
+    "id": "07",
+    "name": "Tropical Paradise Resort",
+    "file": "stay-tropical-paradise.jpg",
+    "aspectRatio": "1:1",
+    "size": "1200×1200",
+    "usedIn": "Carousel card 2",
+    "prompt": "Top-down aerial drone photograph of a wooden villa with a terracotta pyramid roof and a rectangular turquoise pool on a wooden deck, surrounded by dense lush rainforest canopy, a dark green lagoon at the bottom of the frame reflecting the trees, soft overcast light, rich but muted greens.",
+    "style": "Editorial luxury travel photography, natural soft daylight, gentle haze, true-to-life colours that are slightly muted and never oversaturated, calm premium mood, full-frame camera with 35mm lens, fine film grain, ultra-detailed, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border, people, person, figures"
+  },
+  {
+    "id": "08",
+    "name": "Pinecone Lodge",
+    "file": "stay-pinecone-lodge.jpg",
+    "aspectRatio": "1:1",
+    "size": "1200×1200",
+    "usedIn": "Carousel card 3",
+    "prompt": "A traditional red wooden boathouse cabin with white window frames and a dark grey roof, standing on a small jetty over a perfectly still lake in thick soft fog, pale grey-teal sky, the cabin perfectly mirrored in the water, minimalist Scandinavian mood. Cabin centred slightly below the middle with lots of empty misty space.",
+    "style": "Editorial luxury travel photography, natural soft daylight, gentle haze, true-to-life colours that are slightly muted and never oversaturated, calm premium mood, full-frame camera with 35mm lens, fine film grain, ultra-detailed, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border, people, person, figures"
+  },
+  {
+    "id": "09",
+    "name": "Lakeside Retreat",
+    "file": "stay-lakeside-retreat.jpg",
+    "aspectRatio": "1:1",
+    "size": "1200×1200",
+    "usedIn": "Carousel card 4 (cut off at the edge in the reference)",
+    "prompt": "A row of dark wooden stilt houses with steep shingled roofs on a misty lake shore, warm light glowing in one window, pine forest behind, early morning fog, deep brown and teal tones, calm water reflections.",
+    "style": "Editorial architectural travel photography, cinematic blue-hour colour grade: deep teal and petrol-blue shadows with warm amber interior light, muted slightly desaturated greens, soft atmospheric haze, still mirror-like water, quiet luxurious mood, full-frame camera with 35mm lens, natural realistic lighting, fine film grain, ultra-detailed, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border, people, person, figures"
+  },
+  {
+    "id": "10",
+    "name": "Desert Dune Camp",
+    "file": "stay-desert-dune-camp.jpg",
+    "aspectRatio": "1:1",
+    "size": "1200×1200",
+    "usedIn": "Carousel card 5",
+    "prompt": "A luxury desert camp of three cream canvas dome tents with warm glowing interiors among red sandstone cliffs and soft sand dunes at blue hour, a small fire pit and string lights, deep teal sky with the first stars, warm amber against cool blue.",
+    "style": "Editorial architectural travel photography, cinematic blue-hour colour grade: deep teal and petrol-blue shadows with warm amber interior light, muted slightly desaturated greens, soft atmospheric haze, still mirror-like water, quiet luxurious mood, full-frame camera with 35mm lens, natural realistic lighting, fine film grain, ultra-detailed, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border, people, person, figures"
+  },
+  {
+    "id": "11",
+    "name": "Forest cabin (floating)",
+    "file": "float-forest-cabin.jpg",
+    "aspectRatio": "1:1",
+    "size": "1000×1000",
+    "usedIn": "Community section, floating image left of the dark card",
+    "prompt": "A modern black timber cabin with large glowing windows, raised on stilts above a dark forest pond, surrounded by tall thin pine trees and ferns, misty evening, warm window light reflected in the still black water, deep green and amber palette.",
+    "style": "Editorial architectural travel photography, cinematic blue-hour colour grade: deep teal and petrol-blue shadows with warm amber interior light, muted slightly desaturated greens, soft atmospheric haze, still mirror-like water, quiet luxurious mood, full-frame camera with 35mm lens, natural realistic lighting, fine film grain, ultra-detailed, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border, people, person, figures"
+  },
+  {
+    "id": "12",
+    "name": "Jungle stilt hut (floating)",
+    "file": "float-jungle-hut.jpg",
+    "aspectRatio": "1:1",
+    "size": "1000×1000",
+    "usedIn": "Community section, floating image right of the dark card",
+    "prompt": "A rustic thatched wooden hut on stilts on a tiny island in a jungle river, surrounded by coconut palms and banana leaves, light morning mist, calm water reflection, muted tropical greens.",
+    "style": "Editorial luxury travel photography, natural soft daylight, gentle haze, true-to-life colours that are slightly muted and never oversaturated, calm premium mood, full-frame camera with 35mm lens, fine film grain, ultra-detailed, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border, people, person, figures"
+  },
+  {
+    "id": "13",
+    "name": "Misty lake edge tile",
+    "file": "float-edge-misty-lake.jpg",
+    "aspectRatio": "3:4",
+    "size": "900×1200",
+    "usedIn": "Community section, tall tile cropped by the left edge",
+    "prompt": "Minimal landscape of a calm misty lake with a faint dark tree line on the horizon, soft pastel teal and grey tones, very low contrast, heavy fog, serene and empty composition, vertical framing.",
+    "style": "Editorial luxury travel photography, natural soft daylight, gentle haze, true-to-life colours that are slightly muted and never oversaturated, calm premium mood, full-frame camera with 35mm lens, fine film grain, ultra-detailed, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border, people, person, figures"
+  },
+  {
+    "id": "14",
+    "name": "Glacier lagoon edge tile",
+    "file": "float-edge-glacier.jpg",
+    "aspectRatio": "3:4",
+    "size": "900×1200",
+    "usedIn": "Community section, tall tile cropped by the right edge",
+    "prompt": "Pale turquoise glacier lagoon with small floating ice pieces and soft fog, faint mountain silhouette in the distance, cool teal and white palette, minimal and low contrast, vertical framing.",
+    "style": "Editorial luxury travel photography, natural soft daylight, gentle haze, true-to-life colours that are slightly muted and never oversaturated, calm premium mood, full-frame camera with 35mm lens, fine film grain, ultra-detailed, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border, people, person, figures"
+  },
+  {
+    "id": "15",
+    "name": "Avatar — Sarah Ahmed",
+    "file": "avatar-sarah.jpg",
+    "aspectRatio": "1:1",
+    "size": "800×800",
+    "usedIn": "Testimonial 1 author photo (shown as a 36px circle)",
+    "prompt": "Head-and-shoulders portrait of a smiling woman in her early 30s with South Asian features, dark hair loosely tied back, wearing a beige linen shirt. Face centred with space around it so it crops well into a circle.",
+    "style": "Authentic editorial portrait photography, 85mm lens at f/2, soft natural window light, warm neutral softly blurred background, natural skin texture with no heavy retouching, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border"
+  },
+  {
+    "id": "16",
+    "name": "Avatar — Daniel Okafor",
+    "file": "avatar-daniel.jpg",
+    "aspectRatio": "1:1",
+    "size": "800×800",
+    "usedIn": "Testimonial 2 author photo",
+    "prompt": "Head-and-shoulders portrait of a relaxed, smiling Black man in his late 30s with a short trimmed beard, wearing an olive overshirt over a white t-shirt. Face centred with space around it so it crops well into a circle.",
+    "style": "Authentic editorial portrait photography, 85mm lens at f/2, soft natural window light, warm neutral softly blurred background, natural skin texture with no heavy retouching, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border"
+  },
+  {
+    "id": "17",
+    "name": "Avatar — Mei Lin",
+    "file": "avatar-mei.jpg",
+    "aspectRatio": "1:1",
+    "size": "800×800",
+    "usedIn": "Testimonial 3 author photo",
+    "prompt": "Head-and-shoulders portrait of a cheerful East Asian woman in her late 20s with shoulder-length black hair, wearing a white t-shirt and a light denim jacket. Face centred with space around it so it crops well into a circle.",
+    "style": "Authentic editorial portrait photography, 85mm lens at f/2, soft natural window light, warm neutral softly blurred background, natural skin texture with no heavy retouching, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border"
+  },
+  {
+    "id": "18",
+    "name": "FAQ infinity pool at sunset",
+    "file": "faq-infinity-pool.jpg",
+    "aspectRatio": "5:4",
+    "size": "1600×1280",
+    "usedIn": "FAQ section, image right of the accordion",
+    "prompt": "A couple relaxing in a sunken lounge in the middle of an infinity pool at a tropical resort: low rectangular stone seating with navy cushions, the water flush with the seating edge, tall palm trees silhouetted on the right, a dramatic sunset sky with pink, lilac and golden clouds reflected in the pool. Seen from a slightly high angle, the couple small in the frame, in light summer clothes, one wearing a sun hat. Warm and peaceful.",
+    "style": "Editorial luxury travel photography, natural soft daylight, gentle haze, true-to-life colours that are slightly muted and never oversaturated, calm premium mood, full-frame camera with 35mm lens, fine film grain, ultra-detailed, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border"
+  },
+  {
+    "id": "19",
+    "name": "Footer cabin in the night forest",
+    "file": "footer-cabin-night.jpg",
+    "aspectRatio": "16:9",
+    "size": "2560×1440",
+    "usedIn": "Footer CTA background, under white headline and giant wordmark",
+    "prompt": "Night photograph of a modern glass-box cabin with a flat roof deep in a dark pine forest, seen from a slightly elevated angle. The interior glows warm amber, light spilling onto the forest floor; everything else is almost black-green with faint fog between the trees. Very dark, low-key image. Composition rule: the cabin is small and sits in the lower centre (about 60–75% down the frame); the upper half is nearly black forest so white headline text stays readable.",
+    "style": "Editorial architectural travel photography, cinematic blue-hour colour grade: deep teal and petrol-blue shadows with warm amber interior light, muted slightly desaturated greens, soft atmospheric haze, still mirror-like water, quiet luxurious mood, full-frame camera with 35mm lens, natural realistic lighting, fine film grain, ultra-detailed, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border, people, person, figures"
+  },
+  {
+    "id": "20",
+    "name": "Social share image",
+    "file": "og-image.jpg",
+    "aspectRatio": "1.91:1",
+    "size": "1200×630",
+    "usedIn": "Open Graph / link preview",
+    "prompt": "Wide panoramic photograph of a modern minimalist glass villa with a flat cantilevered roof on a still lake at blue hour, warm amber interior glow reflected in the dark water, pine silhouettes against a deep teal sky. House placed in the right half of the frame, with calm dark sky and water on the left for a logo and headline.",
+    "style": "Editorial architectural travel photography, cinematic blue-hour colour grade: deep teal and petrol-blue shadows with warm amber interior light, muted slightly desaturated greens, soft atmospheric haze, still mirror-like water, quiet luxurious mood, full-frame camera with 35mm lens, natural realistic lighting, fine film grain, ultra-detailed, photorealistic.",
+    "avoid": "text, letters, words, watermark, logo, signage, oversaturated colours, HDR halos, distorted or curved architecture, warped lines, CGI or 3D-render look, cartoon, illustration, blurry, low resolution, frame, border, people, person, figures"
+  }
+]
