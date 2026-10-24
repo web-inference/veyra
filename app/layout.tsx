@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Instrument_Serif } from "next/font/google";
 import { SmoothScroll } from "@/components/SmoothScroll";
+import { asset } from "@/lib/asset";
 import "./globals.css";
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-geist", display: "swap" });
@@ -25,9 +26,9 @@ export const metadata: Metadata = {
     description,
     type: "website",
     siteName: "Veyra",
-    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630, alt: "Glass villa on a still lake at blue hour" }],
+    images: [{ url: asset("/images/og-image.jpg"), width: 1200, height: 630, alt: "Glass villa on a still lake at blue hour" }],
   },
-  twitter: { card: "summary_large_image", title, description, images: ["/images/og-image.jpg"] },
+  twitter: { card: "summary_large_image", title, description, images: [asset("/images/og-image.jpg")] },
 };
 
 export const viewport: Viewport = { themeColor: "#071a20" };

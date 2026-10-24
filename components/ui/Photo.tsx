@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { asset } from "@/lib/asset";
 
 type PhotoProps = {
   src: string;
@@ -27,7 +28,7 @@ export function Photo({ src, alt, sizes, priority, className = "" }: PhotoProps)
 
   return (
     <Image
-      src={src}
+      src={asset(src)}
       alt={alt}
       fill
       sizes={sizes}

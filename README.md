@@ -13,6 +13,8 @@ npm run dev
 
 Open http://localhost:3000.
 
+Live site: https://web-inference.github.io/veyra/ (deployed by `.github/workflows/pages.yml` on every push to `main`).
+
 ## Sections
 
 Navbar · Hero · Our Story · Destinations · Discover carousel · Trusted partners · Community newsletter · Testimonials · FAQ · Footer CTA

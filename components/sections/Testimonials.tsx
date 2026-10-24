@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { IconCircle } from "@/components/ui/IconCircle";
 import { SectionLabel, Stars } from "@/components/ui/bits";
+import { asset } from "@/lib/asset";
 import { testimonials } from "@/lib/content";
 import { gsap, prefersReducedMotion, SplitText, useGSAP } from "@/lib/gsap";
 
@@ -127,7 +128,7 @@ export function Testimonials() {
             <p className="quote-rest mt-5 max-w-[56ch] text-sm leading-relaxed text-ink-muted">{t.body}</p>
             <div className="quote-rest mt-6 flex items-center gap-3">
               <span className="relative size-9 overflow-hidden rounded-full bg-line">
-                <Image src={t.avatar} alt={t.name} fill sizes="36px" className="object-cover" />
+                <Image src={asset(t.avatar)} alt={t.name} fill sizes="36px" className="object-cover" />
               </span>
               <span className="flex flex-col">
                 <span className="text-sm font-medium">{t.name}</span>
