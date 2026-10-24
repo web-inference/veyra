@@ -132,7 +132,7 @@ export function Hero() {
             <form
               role="search"
               onSubmit={(e) => e.preventDefault()}
-              className="hero-search flex h-[52px] w-full items-center rounded-full border border-white/20 bg-white/10 pl-5 pr-1.5 backdrop-blur-md md:max-w-[420px] xl:w-[360px] xl:shrink-0"
+              className="hero-search flex h-[52px] w-full items-center rounded-full border border-white/20 bg-white/10 pl-5 pr-1.5 backdrop-blur-md transition-[border-color,background-color] duration-300 focus-within:border-white/45 focus-within:bg-white/15 has-[input:focus-visible]:outline-2 has-[input:focus-visible]:outline-offset-2 has-[input:focus-visible]:outline-accent md:max-w-[420px] xl:w-[360px] xl:shrink-0"
             >
               <label htmlFor="hero-search" className="sr-only">
                 Search hotel

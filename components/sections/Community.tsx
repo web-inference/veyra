@@ -115,7 +115,7 @@ export function Community() {
           ) : (
             <form onSubmit={onSubmit} noValidate>
               <div
-                className={`flex h-[52px] items-center rounded-full border bg-white/10 pl-5 pr-1.5 transition-colors ${
+                className={`flex h-[52px] items-center rounded-full border bg-white/10 pl-5 pr-1.5 transition-colors has-[input:focus-visible]:outline-2 has-[input:focus-visible]:outline-offset-2 has-[input:focus-visible]:outline-accent ${
                   state === "error" ? "border-accent" : "border-white/15 focus-within:border-white/40"
                 }`}
               >
